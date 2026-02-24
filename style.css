@@ -1,0 +1,21 @@
+.facts li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #f4f4f4;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.facts li img {
+  width: 30px;
+  height: 30px;
+}
+
+.facts li:hover {
+  background: #667eea;
+  color: white;
+  transform: translateX(5px);
+}
